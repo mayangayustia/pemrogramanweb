@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1 2A Polsub</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-judul">Formulir Pendaftaran Online</div>
+        </div>
+
+        <form class="registration-form">
+            <!-- Program Kuliah -->
+            <div class="form-group">
+                <label for="program-kuliah">Program Kuliah</label>
+                <select name="program-kuliah" id="program-kuliah" required>
+                    <option value="">Pilih Program</option>
+                    <option value="D3">D3</option>
+                    <option value="D4">D4</option>
+                </select>
+            </div>
+
+            <!-- Program Studi -->
+            <div class="form-group">
+                <label for="program">Program Studi</label>
+                <select name="program" id="program" required>
+                    <option value="">Pilih Program Studi</option>
+                    <option value="Sistem Informasi">Sistem Informasi</option>
+                    <option value="TRPL">TRPL</option>
+                    <option value="Agroindustri">Agroindustri</option>
+                </select>
+            </div>
+
+            <h2>Biodata</h2>
+
+            <!-- Nama Lengkap -->
+            <div class="form-group">
+                <label for="nama-lengkap">Nama Lengkap</label>
+                <input type="text" name="nama-lengkap" id="nama-lengkap" required />
+            </div>
+
+            <!-- Jenis Kelamin -->
+            <div class="form-group">
+                <label for="jenis-kelamin">Jenis Kelamin</label>
+                <select name="jenis-kelamin" id="jenis-kelamin" required>
+                    <option value="">Pilih jenis kelamin</option>
+                    <option value="Laki-Laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </div>
+
+            <!-- Tempat Lahir -->
+            <div class="form-group">
+                <label for="tempat-lahir">Tempat Lahir</label>
+                <input type="text" name="tempat-lahir" id="tempat-lahir" required />
+            </div>
+
+            <!-- Tanggal Lahir -->
+            <div class="form-group">
+                <label for="tanggal-lahir">Tanggal Lahir</label>
+                <input type="date" name="tanggal-lahir" id="tanggal-lahir" required />
+            </div>
+
+            <!-- Agama -->
+            <div class="form-group">
+                <label for="agama">Agama</label>
+                <select name="agama" id="agama" required>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select>
+            </div>
+
+            <!-- Sekolah -->
+            <div class="form-group">
+                <label for="sekolah">Sekolah</label>
+                <select name="sekolah" id="sekolah" required>
+                    <option value="">Pilih Sekolah</option>
+                    <option value="SMA">SMA</option>
+                    <option value="SMK">SMK</option>
+                    <option value="MA">MA</option>
+                </select>
+            </div>
+
+            <!-- Tahun Lulus -->
+            <div class="form-group">
+                <label for="tahun-lulus">Tahun Lulus</label>
+                <input type="text" name="tahun-lulus" id="tahun-lulus" required />
+            </div>
+
+            <!-- Jurusan -->
+            <div class="form-group">
+                <label for="jurusan">Jurusan</label>
+                <input type="text" name="jurusan" id="jurusan" required />
+            </div>
+
+            <!-- Kelas -->
+            <div class="form-group">
+                <label for="kelas">Kelas</label>
+                <input type="text" name="kelas" id="kelas" required />
+            </div>
+
+            <h2>Pendaftaran Akun</h2>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+            </div>
+
+            <!-- No. Telpon -->
+            <div class="form-group">
+                <label for="no-telpon">No. Telpon</label>
+                <input type="text" name="no-telpon" id="no-telpon" required />
+            </div>
+
+            <!-- Password -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required />
+            </div>
+
+            <!-- Konfirmasi Password -->
+            <div class="form-group">
+                <label for="konfirmasi-password">Konfirmasi Password</label>
+                <input type="password" name="konfirmasi-password" id="konfirmasi-password" required />
+            </div>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+</body>
+</html>
